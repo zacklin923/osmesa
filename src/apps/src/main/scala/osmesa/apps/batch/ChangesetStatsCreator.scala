@@ -11,7 +11,7 @@ import osmesa.analytics.Analytics
 import osmesa.analytics.stats._
 import osmesa.analytics.stats.functions._
 import osmesa.apps.DbUtils
-import vectorpipe.functions._
+import vectorpipe.functions.{flatten => _, _}
 import vectorpipe.functions.osm._
 import vectorpipe.sources.{AugmentedDiffSource, ChangesetSource}
 import vectorpipe.util.Geocode
